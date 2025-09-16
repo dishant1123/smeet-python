@@ -119,3 +119,35 @@ input b=20
 output  : 1020 
 
 """
+
+"""
+operator  : 
+
+1.airthematic op : + - * / // % 
+2.comparsion  op  : < > <= >= == !=
+3.logic op : and or not 
+4.assignment op : = += -= *= /= //= %=
+5. member op : in , not in  
+"""
+a=10 
+b=101
+"""
+print(a%b)  # remainder
+print(a/b)  # 3.33333
+print(a//b)  # floor  division
+print(a!=b)
+"""
+# print(a<b and a!=b)
+# print(a>b or a!=b)
+
+# a= a+b
+"""a +=b 
+print(a)
+"""
+"""
+l1=[1,2,3,4,5]
+print(20 in l1)
+print(20  not in l1)
+"""
+
+# next :  conditional , loop   
