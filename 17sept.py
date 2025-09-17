@@ -152,3 +152,77 @@ else :
 100  factors  :1,2,4,5,10,20,25,50,100 ==>sum 1+2+4+5+10+20+25+50 ==> not perfect 
 
 """
+
+# while  loop  : 
+"""
+syntax : 
+
+i=intial value 
+
+while  con :
+    print(i)
+    i+=1 
+"""
+# 1-100 : 
+
+"""i=1   # intial  /  start 
+while i<=100 :   # con 
+    print(i,end=" ") # 
+    i+=1    # assignment  
+"""
+
+"""num=int(input("enter the  number  : "))
+i=1 
+count =0 
+while i <=num : 
+    if num % i ==0 :
+        count +=1
+    i+=1 
+if count ==2 :
+    print(num,"is a prime number")
+"""
+
+# break , continue  ,pass :
+
+"""
+for i in range(1,10):
+    if i ==5 :
+        break
+    print(i,end=" ")
+"""
+# continue : 
+"""
+for i in range(1,10):
+    if i ==5 :
+        continue
+    print(i,end=" ")
+"""
+# pass : 
+
+"""for i in range(1,10):
+    if i ==5 :
+        pass 
+    print(i,end=" ")
+"""
+
+# while  true  : 
+
+"""
+syntax : 
+
+while True :
+    print()
+    i+=1 
+    if con : 
+        pass 
+""" 
+
+# 1-100 : 
+
+i=1 
+while True :
+    print(i,end=" ")
+    i+=1
+    if i==10 :
+        break
+# next  session  : match  data type  :  list  
