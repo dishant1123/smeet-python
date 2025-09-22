@@ -75,3 +75,48 @@ for i in range(start, end +1):   # 154  10000
 
 """
 # perfect in range  :  start  end   1 -10000 ==> 
+
+# data type  : 
+
+"""
+1.string  :  immutable  == > no changes in string  
+2.list  :  mutable  ==>  changes in list
+3.tuple  :  immutable  ==>  no changes in tuple
+4. dictionary  :  mutable  ==>  changes in dictionary
+5. set  :  mutable  ==>  changes in set
+"""
+
+# list  : mutable  sequences  ==>  changes in list 
+
+"""
+l1 =[1,2,3,4,5,6,90.89,True,9j ]
+print(l1)
+print(type(l1))
+"""
+
+# list  element  access using index : 
+
+# index  start  from  0  ==>  negative index ==> -1 
+
+"""
+l1 =[1,2,3,4,5,6,90.89,True,9j ]
+
+print(l1[0])
+print(l1[4])
+"""
+# 2 index value  update  : 
+
+"""l1[2] ="smeet"
+print(l1)
+"""
+
+# built in function  :  len min max sorted sum 
+l1 =[1,2,3,4,5,6,90.89,90,22]
+
+print(len(l1))
+print(min(l1))
+print(max(l1))
+print(sorted(l1))  # asc to desc 
+print(sorted(l1,reverse=True))  #  desc to asc 
+
+print(sum(l1))
