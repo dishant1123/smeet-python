@@ -163,4 +163,11 @@ print(d1)
 print(d1)
 """
 
-# list  , tuple  ,dict:
+# list  , tuple  ,dict:   
+"""
+3 name  marks  : 
+
+ram  90  sita   78  ravan  92 
+
+d1={"ram":90,"sita":78,"ravan":92}
+"""
