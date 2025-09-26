@@ -32,3 +32,16 @@ print(d2)
 Your program should store them in a dictionary as: {"M":1, "I":4, "S":4, "P":2}. Next, generalize this program for any word entered by user.
 
 """
+
+"""n=input("Enter the word:") #MISSISSIPPI
+d={}
+for i in n :  # m 
+    if i not in d :  # 
+        d[i]=1    # d[m]=1 d[i]=1  d[s]=1 
+    else :
+        d[i]+=1   # d[s] =2 
+print(d)
+"""
+
+l1=[1,2,3,3,4,4,5,5,6,6,7,7,8,9]
+# output [1,2,3,4,5,6,7,8,9]
