@@ -47,8 +47,10 @@ input  b: full
 ouptut a: fulor 
 output b: coll
 """
+s1="dishant dipakkumar shah"
 
-    
-
+print(s1[0])
+print(s1[8])
+print(s1[19 :])
 
 
