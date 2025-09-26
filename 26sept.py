@@ -17,7 +17,8 @@ print(max(s1))
 print(sorted(s1))
 """
 # slicing : 
-"""s1= "my name is smeet."
+"""
+s1= "my name is smeet."
 
 print(s1[2])
 print(s1[3])
@@ -47,10 +48,20 @@ input  b: full
 ouptut a: fulor 
 output b: coll
 """
-s1="dishant dipakkumar shah"
+"""s1="dishant dipakkumar shah"
 
 print(s1[0])
 print(s1[8])
 print(s1[19 :])
+"""
 
+# method : 
 
+s1= "my Name Is Smeet."
+
+print(s1.capitalize())
+print(s1.upper())
+print(s1.lower())
+print(s1.title())
+print(s1.casefold())
+print(s1.swapcase())
