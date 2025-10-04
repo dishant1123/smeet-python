@@ -63,6 +63,7 @@ print(s1.replace("the","",1))
 4.Write a Python code that asks a string from user and replace the first occurance of " " with "_" and last occurance of " " with "#".'''
 input string: Keep yourself mute while not speaking.
 output: Keep_yourself mute while not#speaking.
+hint  :  replace + slicing  
 """
 
 """6.Write a program to make a new string with the word "the" deleted in the given string.
@@ -73,3 +74,69 @@ output: This is lion in cage.
 Sample String : 'restart'
 Expected Result : 'resta$t'
 """
+
+
+# function  : 
+"""
+1. no arg no return 
+2. with arg no return 
+3. no arg  with return 
+4. with arg  with return
+
+"""
+# no arg  no return  
+"""def func1():  # def key word func1 function anme  
+    a=10 
+    b=90   # function  intialization 
+    c=a+b 
+    print(c)
+func1()  # function  call 
+"""
+# with arg  no return
+"""def func1(a,b):
+    c=a+b
+    print(c)
+
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+func1(a,b)
+"""
+
+# no arg  with return
+"""
+def func1():
+    a=int(input("enter a number"))
+    b=int(input("enter b number"))
+    c=a+b
+    return c 
+
+print(func1())
+"""
+
+# with arg  with return
+
+"""
+def func1(a,b):
+    c=a+b
+    return c 
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+    
+print(func1(a,b))
+"""
+# *args : only taken number of argument 
+"""def func1(*args):
+    
+    return sum(args)  # sum  ==> built in function   
+
+print(func1(1,34,24,456,778,345,5667,2233))
+"""
+
+def d1(*args):
+    sum =0 
+    for i in args:
+        sum = sum +i 
+    print(sum)
+d1(1,2,3,4,5,6,7,8,9,10)
+
+# next session  :  **kargs , app ==> menu driven  ==> python 
