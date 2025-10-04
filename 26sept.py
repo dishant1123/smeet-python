@@ -65,3 +65,4 @@ print(s1.lower())
 print(s1.title())
 print(s1.casefold())
 print(s1.swapcase())
+
